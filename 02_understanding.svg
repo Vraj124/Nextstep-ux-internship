@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>02 Understanding Screen</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .subtitle { font-weight: 400; fill: #4A5568; }
+      .label { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="375" height="812" fill="#F8F9FA" />
+  
+  <!-- Header Bar -->
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+    <text x="335" y="19" fill="#6C7A89" font-size="11" text-anchor="end">HAZHTeq Prototype</text>
+    <line x1="0" y1="36" x2="335" y2="36" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+  
+  
+  <!-- Screen: Understanding -->
+  <g id="Screen_Understanding" transform="translate(20, 80)">
+    <circle cx="6" cy="18" r="4" fill="#2B6CB0" />
+    <text x="18" y="22" fill="#2B6CB0" font-weight="600" font-size="14">I'm making sense of this…</text>
+    
+    <!-- Issue Cards -->
+    <g id="Issues_List" transform="translate(0, 45)">
+      <!-- Item 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="335" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="24" cy="30" r="10" fill="#F0FDF4" />
+        <path d="M20 30 L23 33 L29 27" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="44" y="27" fill="#1A1F26" font-weight="600" font-size="14">Dad admitted to hospital in Surat</text>
+        <text x="44" y="45" fill="#6C7A89" font-size="12">Location: Surat • Family urgency</text>
+      </g>
+      <!-- Item 2 -->
+      <g transform="translate(0, 70)">
+        <rect width="335" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="24" cy="30" r="10" fill="#F0FDF4" />
+        <path d="M20 30 L23 33 L29 27" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="44" y="27" fill="#1A1F26" font-weight="600" font-size="14">Viva at 10am tomorrow</text>
+        <text x="44" y="45" fill="#6C7A89" font-size="12">Timing: Tomorrow 10:00 AM</text>
+      </g>
+      <!-- Item 3 -->
+      <g transform="translate(0, 140)">
+        <rect width="335" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="24" cy="30" r="10" fill="#F0FDF4" />
+        <path d="M20 30 L23 33 L29 27" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="44" y="27" fill="#1A1F26" font-weight="600" font-size="14">Laptop won't boot before viva</text>
+        <text x="44" y="45" fill="#6C7A89" font-size="12">Device failure • Blocks viva prep</text>
+      </g>
+      <!-- Item 4 -->
+      <g transform="translate(0, 210)">
+        <rect width="335" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="24" cy="30" r="10" fill="#F0FDF4" />
+        <path d="M20 30 L23 33 L29 27" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="44" y="27" fill="#1A1F26" font-weight="600" font-size="14">Project partner not responding (2 days)</text>
+        <text x="44" y="45" fill="#6C7A89" font-size="12">Collaboration blocked</text>
+      </g>
+    </g>
+
+    <!-- Verification Card -->
+    <g id="Verification_Card" transform="translate(0, 340)">
+      <rect width="335" height="135" rx="12" fill="#F1F3F5" />
+      <text x="16" y="32" fill="#1A1F26" font-weight="600" font-size="16">Did I understand that correctly?</text>
+      
+      <g id="Btn_Confirm" transform="translate(16, 50)">
+        <rect width="303" height="44" rx="8" fill="#2B6CB0" />
+        <text x="151" y="27" fill="#FFFFFF" class="btn-text" font-size="14">Yes, that's right</text>
+      </g>
+      <g id="Btn_Wrong" transform="translate(16, 102)">
+        <rect width="303" height="24" rx="4" fill="transparent" />
+        <text x="151" y="16" fill="#4A5568" font-size="13" font-weight="600" text-anchor="middle">Something's wrong (edit details)</text>
+      </g>
+    </g>
+  </g>
+
+</svg>

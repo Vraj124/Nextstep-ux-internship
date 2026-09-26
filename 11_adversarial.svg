@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>11 Adversarial Safety (Scenario 6)</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .subtitle { font-weight: 400; fill: #4A5568; }
+      .label { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="375" height="812" fill="#F8F9FA" />
+  
+  <!-- Header Bar -->
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+    <text x="335" y="19" fill="#6C7A89" font-size="11" text-anchor="end">HAZHTeq Prototype</text>
+    <line x1="0" y1="36" x2="335" y2="36" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+  
+  
+  <!-- Screen: Adversarial (Scenario 6) -->
+  <g id="Screen_Adversarial" transform="translate(20, 80)">
+    <rect width="335" height="150" rx="14" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2" />
+    <text x="16" y="32" fill="#9A3412" font-weight="700" font-size="16">Pasted instructions detected</text>
+    <text x="16" y="58" fill="#7C2D12" font-size="13">I found instructions inside the text you pasted.</text>
+    <text x="16" y="78" fill="#7C2D12" font-size="13">I'll treat them as part of the information you</text>
+    <text x="16" y="98" fill="#7C2D12" font-size="13">provided, not as instructions for me.</text>
+    <text x="16" y="128" fill="#C2410C" font-weight="700" font-size="12">NextStep will NEVER ask for your UPI PIN or OTP.</text>
+  </g>
+
+</svg>

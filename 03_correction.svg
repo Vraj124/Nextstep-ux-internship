@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>03 Inline Correction Screen</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .subtitle { font-weight: 400; fill: #4A5568; }
+      .label { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="375" height="812" fill="#F8F9FA" />
+  
+  <!-- Header Bar -->
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+    <text x="335" y="19" fill="#6C7A89" font-size="11" text-anchor="end">HAZHTeq Prototype</text>
+    <line x1="0" y1="36" x2="335" y2="36" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+  
+  
+  <!-- Screen: Correction -->
+  <g id="Screen_Correction" transform="translate(20, 80)">
+    <text x="0" y="24" class="title" font-size="22">Correct what I understood</text>
+    <text x="0" y="48" class="subtitle" font-size="13">Edit any specific item. You don't have to restart.</text>
+    
+    <g id="Edit_Fields" transform="translate(0, 70)">
+      <!-- Field 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="335" height="74" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="16" y="22" class="label" fill="#6C7A89">Item 1 (Family)</text>
+        <rect x="16" y="30" width="303" height="34" rx="6" fill="#F8F9FA" stroke="#94A3B8" stroke-width="1" />
+        <text x="26" y="52" fill="#1A1F26" font-size="13">Dad admitted to hospital in Surat</text>
+      </g>
+      <!-- Field 2 -->
+      <g transform="translate(0, 86)">
+        <rect width="335" height="74" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="16" y="22" class="label" fill="#6C7A89">Item 2 (Academic)</text>
+        <rect x="16" y="30" width="303" height="34" rx="6" fill="#F8F9FA" stroke="#94A3B8" stroke-width="1" />
+        <text x="26" y="52" fill="#1A1F26" font-size="13">Viva at 10am tomorrow</text>
+      </g>
+      <!-- Field 3 -->
+      <g transform="translate(0, 172)">
+        <rect width="335" height="74" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="16" y="22" class="label" fill="#6C7A89">Item 3 (Hardware)</text>
+        <rect x="16" y="30" width="303" height="34" rx="6" fill="#F8F9FA" stroke="#94A3B8" stroke-width="1" />
+        <text x="26" y="52" fill="#1A1F26" font-size="13">Laptop won't boot before the viva</text>
+      </g>
+    </g>
+
+    <g id="Btn_SaveCorrection" transform="translate(0, 340)">
+      <rect width="335" height="50" rx="12" fill="#2B6CB0" />
+      <text x="167" y="31" fill="#FFFFFF" class="btn-text">Continue with these corrections</text>
+    </g>
+    <g id="Btn_CancelCorrection" transform="translate(0, 400)">
+      <text x="167" y="20" fill="#6C7A89" font-size="14" font-weight="500" text-anchor="middle">Cancel</text>
+    </g>
+  </g>
+
+</svg>

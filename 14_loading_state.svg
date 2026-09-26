@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>14 Loading State</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="375" height="812" fill="#F8F9FA" />
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+  </g>
+  
+  <g id="Screen_Loading" transform="translate(20, 180)">
+    <rect width="335" height="220" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+    <circle cx="167" cy="65" r="20" fill="none" stroke="#E2E8F0" stroke-width="4" />
+    <circle cx="167" cy="65" r="20" fill="none" stroke="#2B6CB0" stroke-width="4" stroke-dasharray="40 80" />
+    <text x="167" y="120" class="title" font-size="18" text-anchor="middle">I'm making sense of this…</text>
+    <text x="167" y="148" fill="#6C7A89" font-size="13" text-anchor="middle">Breaking down your situation into clear parts.</text>
+    <text x="167" y="168" fill="#6C7A89" font-size="13" text-anchor="middle">Comparing deadlines and dependencies.</text>
+  </g>
+
+</svg>

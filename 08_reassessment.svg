@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>08 Reassessment Screen</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .subtitle { font-weight: 400; fill: #4A5568; }
+      .label { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="375" height="812" fill="#F8F9FA" />
+  
+  <!-- Header Bar -->
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+    <text x="335" y="19" fill="#6C7A89" font-size="11" text-anchor="end">HAZHTeq Prototype</text>
+    <line x1="0" y1="36" x2="335" y2="36" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+  
+  
+  <!-- Screen: Reassessment -->
+  <g id="Screen_Reassessment" transform="translate(20, 80)">
+    <text x="0" y="24" class="title" font-size="22">How did it go?</text>
+    <text x="0" y="48" class="subtitle" font-size="13">Regarding: "Call whoever is with your dad now"</text>
+    
+    <g id="Feedback_Grid" transform="translate(0, 75)">
+      <g transform="translate(0, 0)">
+        <rect width="160" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="20" y="34" font-size="20">✅</text>
+        <text x="50" y="38" fill="#1A1F26" font-weight="600" font-size="14">Better</text>
+      </g>
+      <g transform="translate(175, 0)">
+        <rect width="160" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="20" y="34" font-size="20">⏳</text>
+        <text x="50" y="38" fill="#1A1F26" font-weight="600" font-size="14">Not yet</text>
+      </g>
+      <g transform="translate(0, 85)">
+        <rect width="160" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="16" y="34" font-size="20">🔄</text>
+        <text x="46" y="32" fill="#1A1F26" font-weight="600" font-size="13">Something</text>
+        <text x="46" y="48" fill="#1A1F26" font-weight="600" font-size="13">changed</text>
+      </g>
+      <g transform="translate(175, 85)">
+        <rect width="160" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="16" y="34" font-size="20">⚠️</text>
+        <text x="46" y="32" fill="#1A1F26" font-weight="600" font-size="13">It got</text>
+        <text x="46" y="48" fill="#1A1F26" font-weight="600" font-size="13">worse</text>
+      </g>
+    </g>
+
+    <g id="Returning_User_Section" transform="translate(0, 270)">
+      <text x="0" y="20" class="title" font-size="16">Things may have changed</text>
+      <text x="0" y="38" class="subtitle" font-size="13">since we last talked. What's different?</text>
+      
+      <g transform="translate(0, 52)">
+        <rect width="335" height="40" rx="8" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="1" />
+        <text x="14" y="25" fill="#6C7A89" font-size="12">e.g. Laptop is fixed, or viva moved…</text>
+      </g>
+      
+      <g transform="translate(0, 102)">
+        <rect width="335" height="46" rx="10" fill="#2B6CB0" />
+        <text x="167" y="28" fill="#FFFFFF" class="btn-text">Reassess situation</text>
+      </g>
+    </g>
+  </g>
+
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>15 Error State</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="375" height="812" fill="#F8F9FA" />
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+  </g>
+  
+  <g id="Screen_Error" transform="translate(20, 160)">
+    <rect width="335" height="260" rx="16" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5" />
+    <circle cx="167" cy="55" r="18" fill="#EF4444" />
+    <text x="167" y="62" fill="#FFFFFF" font-weight="700" font-size="18" text-anchor="middle">!</text>
+    <text x="167" y="105" fill="#991B1B" font-weight="700" font-size="18" text-anchor="middle">We hit a temporary bump</text>
+    <text x="167" y="135" fill="#7F1D1D" font-size="13" text-anchor="middle">The connection was interrupted. Your input was</text>
+    <text x="167" y="155" fill="#7F1D1D" font-size="13" text-anchor="middle">safely preserved so you do not have to retype it.</text>
+    <g transform="translate(20, 185)">
+      <rect width="140" height="44" rx="8" fill="#2B6CB0" />
+      <text x="70" y="27" fill="#FFFFFF" class="btn-text" font-size="13">Try again</text>
+    </g>
+    <g transform="translate(175, 185)">
+      <rect width="140" height="44" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <text x="70" y="27" fill="#1A1F26" class="btn-text" font-size="13">Edit my input</text>
+    </g>
+  </g>
+
+</svg>

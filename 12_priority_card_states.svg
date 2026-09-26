@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>12 Priority Card States</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .subtitle { font-weight: 400; fill: #4A5568; }
+      .label { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="375" height="812" fill="#F8F9FA" />
+  
+  <!-- Header Bar -->
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+    <text x="335" y="19" fill="#6C7A89" font-size="11" text-anchor="end">HAZHTeq Prototype</text>
+    <line x1="0" y1="36" x2="335" y2="36" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+  
+  
+  <!-- Component Variants: Priority Card States -->
+  <g id="Components_PriorityCard" transform="translate(20, 60)">
+    <text x="0" y="20" class="title" font-size="20">Priority Card Variants</text>
+    
+    <!-- Default / Primary -->
+    <g transform="translate(0, 35)">
+      <text x="0" y="-8" class="label" fill="#6C7A89">1. Default Top Priority</text>
+      <rect width="335" height="100" rx="10" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2" />
+      <circle cx="24" cy="24" r="10" fill="#2B6CB0" />
+      <text x="24" y="28" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">1</text>
+      <text x="40" y="28" fill="#2B6CB0" font-weight="700" font-size="11">RIGHT NOW • TOP PRIORITY</text>
+      <text x="16" y="54" class="title" font-size="14">Your dad's situation in Surat</text>
+      <text x="16" y="76" fill="#4A5568" font-size="12">Call family now to confirm travel requirements.</text>
+    </g>
+    
+    <!-- Tied Rank 1 -->
+    <g transform="translate(0, 160)">
+      <text x="0" y="-8" class="label" fill="#6C7A89">2. Tied Priority ("Two things need attention first")</text>
+      <rect width="335" height="100" rx="10" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2" />
+      <circle cx="24" cy="24" r="10" fill="#2B6CB0" />
+      <text x="24" y="28" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">1</text>
+      <text x="40" y="28" fill="#2B6CB0" font-weight="700" font-size="11">TIED TOP PRIORITY</text>
+      <text x="16" y="54" class="title" font-size="14">Item A &amp; Item B have equal urgency</text>
+      <text x="16" y="76" fill="#4A5568" font-size="12">Displayed with equal visual prominence.</text>
+    </g>
+
+    <!-- Loading State -->
+    <g transform="translate(0, 285)">
+      <text x="0" y="-8" class="label" fill="#6C7A89">3. Loading State</text>
+      <rect width="335" height="80" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <circle cx="167" cy="30" r="12" fill="none" stroke="#2B6CB0" stroke-width="3" stroke-dasharray="20 10" />
+      <text x="167" y="60" fill="#4A5568" font-size="12" font-weight="600" text-anchor="middle">Ordering your priorities…</text>
+    </g>
+
+    <!-- Error State -->
+    <g transform="translate(0, 390)">
+      <text x="0" y="-8" class="label" fill="#6C7A89">4. Error State</text>
+      <rect width="335" height="90" rx="10" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5" />
+      <text x="16" y="28" fill="#991B1B" font-weight="700" font-size="13">Priority calculation interrupted</text>
+      <text x="16" y="48" fill="#7F1D1D" font-size="12">Connection interrupted. Your input was preserved.</text>
+      <rect x="16" y="58" width="90" height="24" rx="4" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1" />
+      <text x="61" y="74" fill="#991B1B" font-size="11" font-weight="600" text-anchor="middle">Try again</text>
+    </g>
+  </g>
+
+</svg>

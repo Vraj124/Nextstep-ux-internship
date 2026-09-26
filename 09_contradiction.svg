@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>09 Contradiction / Uncertainty (Scenario 3)</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .subtitle { font-weight: 400; fill: #4A5568; }
+      .label { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="375" height="812" fill="#F8F9FA" />
+  
+  <!-- Header Bar -->
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+    <text x="335" y="19" fill="#6C7A89" font-size="11" text-anchor="end">HAZHTeq Prototype</text>
+    <line x1="0" y1="36" x2="335" y2="36" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+  
+  
+  <!-- Screen: Contradiction / Uncertainty (Scenario 3) -->
+  <g id="Screen_Contradiction" transform="translate(20, 80)">
+    <g id="Notice_Box">
+      <rect width="335" height="150" rx="14" fill="#FFFBEB" stroke="#FCD34D" stroke-width="2" />
+      <circle cx="28" cy="28" r="10" fill="#92400E" />
+      <text x="28" y="33" fill="#FFFFFF" font-weight="700" font-size="12" text-anchor="middle">?</text>
+      <text x="46" y="32" fill="#92400E" font-weight="700" font-size="16">I don't want to guess.</text>
+      
+      <rect x="16" y="52" width="303" height="42" rx="6" fill="#FEF3C7" />
+      <text x="26" y="72" fill="#78350F" font-weight="700" font-size="13">Deadline: Thursday or Friday</text>
+      <text x="26" y="87" fill="#78350F" font-size="11">You mentioned both in your message.</text>
+      
+      <!-- Option Buttons -->
+      <g transform="translate(16, 102)">
+        <rect width="145" height="34" rx="6" fill="#FFFFFF" stroke="#B45309" stroke-width="1" />
+        <text x="72" y="22" fill="#78350F" font-size="12" font-weight="600" text-anchor="middle">Confirm Thursday</text>
+      </g>
+      <g transform="translate(174, 102)">
+        <rect width="145" height="34" rx="6" fill="#FFFFFF" stroke="#B45309" stroke-width="1" />
+        <text x="72" y="22" fill="#78350F" font-size="12" font-weight="600" text-anchor="middle">Confirm Friday</text>
+      </g>
+    </g>
+  </g>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>17 Next Action Detail</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="375" height="812" fill="#F8F9FA" />
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+  </g>
+  
+  <g id="Screen_NextActionDetail" transform="translate(20, 120)">
+    <rect width="335" height="320" rx="16" fill="#EBF4FF" stroke="#2B6CB0" stroke-width="2" />
+    <text x="20" y="38" fill="#1A4971" font-size="12" font-weight="700">RECOMMENDED ACTION DETAIL</text>
+    <text x="20" y="72" class="title" font-size="20">Call family in Surat</text>
+    <text x="20" y="102" fill="#1A1F26" font-size="15" font-weight="600">Ask if they need you to travel tonight.</text>
+    <rect x="20" y="125" width="295" height="90" rx="8" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1" />
+    <text x="32" y="150" fill="#0369A1" font-size="11" font-weight="700">WHY THIS MATTERS FIRST</text>
+    <text x="32" y="172" fill="#334155" font-size="13">Surat is an overnight journey from Pune.</text>
+    <text x="32" y="192" fill="#334155" font-size="13">Travelling means rescheduling tomorrow's viva.</text>
+    <g transform="translate(20, 235)">
+      <rect width="295" height="48" rx="10" fill="#2B6CB0" />
+      <text x="147" y="30" fill="#FFFFFF" class="btn-text">Do this now</text>
+    </g>
+  </g>
+
+</svg>

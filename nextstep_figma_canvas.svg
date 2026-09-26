@@ -1,0 +1,550 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1800" width="2400" height="1800">
+  <title>NextStep — Figma Master Design &amp; Prototype Canvas</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .canvas-title { font-weight: 800; font-size: 32px; fill: #1A1F26; }
+      .flow-label { font-weight: 700; font-size: 18px; fill: #2B6CB0; text-transform: uppercase; letter-spacing: 1px; }
+      .frame-title { font-weight: 700; font-size: 15px; fill: #4A5568; }
+      .arrow { stroke: #2B6CB0; stroke-width: 3; fill: none; stroke-dasharray: 6 4; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2B6CB0" />
+    </marker>
+  </defs>
+
+  <rect width="2400" height="1800" fill="#E2E8F0" />
+  
+  <!-- Canvas Title -->
+  <g transform="translate(60, 60)">
+    <text x="0" y="0" class="canvas-title">NextStep — HAZHTeq UI/UX Internship Challenge</text>
+    <text x="0" y="32" font-size="18" fill="#4A5568">Master Visual Flow Diagram &amp; Importable Vector Artboards (Visual flow diagram; wire native Figma prototype connections after import)</text>
+  </g>
+
+  <!-- Flow 1: MAIN JOURNEY -->
+  <g transform="translate(60, 130)">
+    <text x="0" y="0" class="flow-label">MAIN DECISION JOURNEY (1 → 2 → 3 → 4 → 5 → 6)</text>
+    
+    <!-- Screen 1: Input -->
+    <g transform="translate(0, 30)">
+      <text x="0" y="-10" class="frame-title">Frame 01: Problem Input</text>
+      <rect width="375" height="812" rx="20" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Screen: Problem Input -->
+  <g id="Screen_ProblemInput" transform="translate(20, 80)">
+    <text x="0" y="24" class="title" font-size="24">What's going on?</text>
+    <text x="0" y="50" class="subtitle" font-size="14">Tell me what's happening. You don't have to organize it first.</text>
+    
+    <!-- Textarea Frame -->
+    <g id="InputArea" transform="translate(0, 75)">
+      <rect width="335" height="180" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+      <text x="16" y="32" fill="#1A1F26" font-size="14">Viva is at 10am tomorrow, laptop won't boot,</text>
+      <text x="16" y="54" fill="#1A1F26" font-size="14">my project partner has been ignoring my calls</text>
+      <text x="16" y="76" fill="#1A1F26" font-size="14">for 2 days, and my dad just got admitted to</text>
+      <text x="16" y="98" fill="#1A1F26" font-size="14">a hospital in Surat. I'm in Pune.</text>
+      <text x="16" y="165" fill="#94A3B8" font-size="11">Supports long text, mixed language / Hinglish</text>
+      <text x="320" y="165" fill="#94A3B8" font-size="11" text-anchor="end">184 chars</text>
+    </g>
+
+    <!-- Jugaad Review Cushion -->
+    <g id="Jugaad_Cushion" transform="translate(0, 275)">
+      <rect width="335" height="110" rx="12" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1.5" />
+      <circle cx="24" cy="24" r="8" fill="#075985" />
+      <path d="M24 20 L24 25 M24 27 L24 28" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
+      <text x="40" y="28" fill="#075985" font-weight="600" font-size="13">Taking a breath before we process…</text>
+      <rect x="16" y="44" width="303" height="4" rx="2" fill="#E0F2FE" />
+      <rect x="16" y="44" width="180" height="4" rx="2" fill="#2B6CB0" />
+      
+      <!-- Cushion Buttons -->
+      <g id="Btn_Review" transform="translate(16, 62)">
+        <rect width="140" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="70" y="23" fill="#1A1F26" class="btn-text" font-size="13">✏️ Review / Edit</text>
+      </g>
+      <g id="Btn_ProcessNow" transform="translate(166, 62)">
+        <rect width="153" height="36" rx="8" fill="#2B6CB0" />
+        <text x="76" y="23" fill="#FFFFFF" class="btn-text" font-size="13">Process right now →</text>
+      </g>
+    </g>
+
+    <!-- Primary Button -->
+    <g id="Btn_Submit" transform="translate(0, 410)">
+      <rect width="335" height="52" rx="12" fill="#2B6CB0" />
+      <text x="167" y="32" fill="#FFFFFF" class="btn-text">Help me figure this out</text>
+    </g>
+  </g>
+
+    </g>
+    <!-- Arrow 1 -> 2 -->
+    <line x1="390" y1="436" x2="430" y2="436" class="arrow" marker-end="url(#arrowhead)" />
+
+    <!-- Screen 2: Understanding -->
+    <g transform="translate(440, 30)">
+      <text x="0" y="-10" class="frame-title">Frame 02: Understanding</text>
+      <rect width="375" height="812" rx="20" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Screen: Understanding -->
+  <g id="Screen_Understanding" transform="translate(20, 80)">
+    <circle cx="6" cy="18" r="4" fill="#2B6CB0" />
+    <text x="18" y="22" fill="#2B6CB0" font-weight="600" font-size="14">I'm making sense of this…</text>
+    
+    <!-- Issue Cards -->
+    <g id="Issues_List" transform="translate(0, 45)">
+      <!-- Item 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="335" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="24" cy="30" r="10" fill="#F0FDF4" />
+        <path d="M20 30 L23 33 L29 27" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="44" y="27" fill="#1A1F26" font-weight="600" font-size="14">Dad admitted to hospital in Surat</text>
+        <text x="44" y="45" fill="#6C7A89" font-size="12">Location: Surat • Family urgency</text>
+      </g>
+      <!-- Item 2 -->
+      <g transform="translate(0, 70)">
+        <rect width="335" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="24" cy="30" r="10" fill="#F0FDF4" />
+        <path d="M20 30 L23 33 L29 27" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="44" y="27" fill="#1A1F26" font-weight="600" font-size="14">Viva at 10am tomorrow</text>
+        <text x="44" y="45" fill="#6C7A89" font-size="12">Timing: Tomorrow 10:00 AM</text>
+      </g>
+      <!-- Item 3 -->
+      <g transform="translate(0, 140)">
+        <rect width="335" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="24" cy="30" r="10" fill="#F0FDF4" />
+        <path d="M20 30 L23 33 L29 27" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="44" y="27" fill="#1A1F26" font-weight="600" font-size="14">Laptop won't boot before viva</text>
+        <text x="44" y="45" fill="#6C7A89" font-size="12">Device failure • Blocks viva prep</text>
+      </g>
+      <!-- Item 4 -->
+      <g transform="translate(0, 210)">
+        <rect width="335" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="24" cy="30" r="10" fill="#F0FDF4" />
+        <path d="M20 30 L23 33 L29 27" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="44" y="27" fill="#1A1F26" font-weight="600" font-size="14">Project partner not responding (2 days)</text>
+        <text x="44" y="45" fill="#6C7A89" font-size="12">Collaboration blocked</text>
+      </g>
+    </g>
+
+    <!-- Verification Card -->
+    <g id="Verification_Card" transform="translate(0, 340)">
+      <rect width="335" height="135" rx="12" fill="#F1F3F5" />
+      <text x="16" y="32" fill="#1A1F26" font-weight="600" font-size="16">Did I understand that correctly?</text>
+      
+      <g id="Btn_Confirm" transform="translate(16, 50)">
+        <rect width="303" height="44" rx="8" fill="#2B6CB0" />
+        <text x="151" y="27" fill="#FFFFFF" class="btn-text" font-size="14">Yes, that's right</text>
+      </g>
+      <g id="Btn_Wrong" transform="translate(16, 102)">
+        <rect width="303" height="24" rx="4" fill="transparent" />
+        <text x="151" y="16" fill="#4A5568" font-size="13" font-weight="600" text-anchor="middle">Something's wrong (edit details)</text>
+      </g>
+    </g>
+  </g>
+
+    </g>
+    <!-- Arrow 2 -> 3 -->
+    <line x1="830" y1="436" x2="870" y2="436" class="arrow" marker-end="url(#arrowhead)" />
+
+    <!-- Screen 3: Clarification -->
+    <g transform="translate(880, 30)">
+      <text x="0" y="-10" class="frame-title">Frame 03: Clarification Question</text>
+      <rect width="375" height="812" rx="20" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Screen: Clarification Question -->
+  <g id="Screen_Clarification" transform="translate(20, 80)">
+    <text x="0" y="16" fill="#6C7A89" font-size="12" font-weight="600">Question 1 of 2</text>
+    <text x="335" y="16" fill="#B45309" font-size="12" font-weight="700" text-anchor="end">Needed to decide</text>
+    
+    <g id="Question_Card" transform="translate(0, 30)">
+      <rect width="335" height="420" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+      <text x="20" y="40" class="title" font-size="18">Do you need to travel to</text>
+      <text x="20" y="65" class="title" font-size="18">Surat tonight?</text>
+      
+      <!-- Choices -->
+      <g id="Option_1" transform="translate(20, 95)">
+        <rect width="295" height="50" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+        <text x="16" y="31" fill="#1A1F26" font-weight="600" font-size="14">Yes, I need to go tonight</text>
+        <text x="275" y="31" fill="#94A3B8" font-size="14">→</text>
+      </g>
+      <g id="Option_2" transform="translate(20, 155)">
+        <rect width="295" height="50" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+        <text x="16" y="31" fill="#1A1F26" font-weight="600" font-size="14">No, family has it covered</text>
+        <text x="275" y="31" fill="#94A3B8" font-size="14">→</text>
+      </g>
+      <g id="Option_3" transform="translate(20, 215)">
+        <rect width="295" height="50" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+        <text x="16" y="31" fill="#1A1F26" font-weight="600" font-size="14">Not sure yet</text>
+        <text x="275" y="31" fill="#94A3B8" font-size="14">→</text>
+      </g>
+
+      <!-- Custom Answer -->
+      <g id="Custom_Answer" transform="translate(20, 280)">
+        <text x="0" y="16" fill="#6C7A89" font-size="12">Or provide your own answer:</text>
+        <rect x="0" y="24" width="220" height="42" rx="8" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="1" />
+        <text x="12" y="50" fill="#94A3B8" font-size="13">Type answer…</text>
+        <rect x="228" y="24" width="67" height="42" rx="8" fill="#2B6CB0" />
+        <text x="261" y="50" fill="#FFFFFF" font-size="13" font-weight="600" text-anchor="middle">Submit</text>
+      </g>
+
+      <!-- Skip Button -->
+      <text x="167" y="395" fill="#6C7A89" font-size="13" font-weight="500" text-anchor="middle">Skip this question</text>
+    </g>
+  </g>
+
+    </g>
+    <!-- Arrow 3 -> 4 -->
+    <line x1="1270" y1="436" x2="1310" y2="436" class="arrow" marker-end="url(#arrowhead)" />
+
+    <!-- Screen 4: Prioritisation -->
+    <g transform="translate(1320, 30)">
+      <text x="0" y="-10" class="frame-title">Frame 04: Prioritisation &amp; Next Action</text>
+      <rect width="375" height="812" rx="20" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Screen: Prioritisation -->
+  <g id="Screen_Prioritisation" transform="translate(20, 80)">
+    <text x="0" y="24" class="title" font-size="22">Here's what matters most right now</text>
+    <text x="0" y="48" class="subtitle" font-size="13">One clear step at a time. The rest is organized below.</text>
+    
+    <!-- NEXT STEP Card -->
+    <g id="Card_NextStep" transform="translate(0, 65)">
+      <rect width="335" height="135" rx="14" fill="#EBF4FF" stroke="#2B6CB0" stroke-width="2" />
+      <text x="16" y="26" class="label" fill="#1A4971">NEXT STEP</text>
+      <text x="16" y="52" fill="#1A1F26" font-weight="700" font-size="15">Call whoever is with your dad now:</text>
+      <text x="16" y="74" fill="#1A1F26" font-size="14">Ask if they need you in Surat tonight.</text>
+      <g id="Btn_DoNow" transform="translate(16, 88)">
+        <rect width="180" height="36" rx="8" fill="#2B6CB0" />
+        <text x="90" y="23" fill="#FFFFFF" class="btn-text" font-size="13">Do this now</text>
+      </g>
+      <g id="Btn_WhyThis" transform="translate(206, 88)">
+        <rect width="113" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="56" y="23" fill="#1A1F26" class="btn-text" font-size="12">Why this?</text>
+      </g>
+    </g>
+
+    <!-- Priority 1 Card -->
+    <g id="Card_Priority1" transform="translate(0, 215)">
+      <rect width="335" height="195" rx="14" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2" />
+      
+      <!-- Badges -->
+      <circle cx="28" cy="28" r="12" fill="#2B6CB0" />
+      <text x="28" y="33" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">1</text>
+      <text x="48" y="32" class="label" fill="#2B6CB0">RIGHT NOW • TOP PRIORITY</text>
+      <text x="319" y="32" fill="#6C7A89" font-size="11" text-anchor="end">~10 mins</text>
+      
+      <text x="16" y="66" class="title" font-size="16">Your dad's situation in Surat</text>
+      
+      <!-- Action box -->
+      <rect x="16" y="78" width="303" height="48" rx="6" fill="#F1F3F5" />
+      <line x1="16" y1="78" x2="16" y2="126" stroke="#2B6CB0" stroke-width="4" />
+      <text x="28" y="96" class="label" fill="#6C7A89" font-size="9">ACTION</text>
+      <text x="28" y="114" fill="#1A1F26" font-size="12" font-weight="600">Call family to confirm travel needs tonight</text>
+      
+      <text x="16" y="146" class="label" fill="#6C7A89" font-size="10">WHY THIS MATTERS RIGHT NOW</text>
+      <text x="16" y="166" fill="#4A5568" font-size="12">This decides whether you need to catch a bus/train</text>
+      <text x="16" y="182" fill="#4A5568" font-size="12">tonight, which directly affects the morning viva.</text>
+    </g>
+
+    <!-- Also on your plate -->
+    <g id="Also_On_Plate" transform="translate(0, 425)">
+      <text x="0" y="16" class="label" fill="#6C7A89">ALSO ON YOUR PLATE</text>
+      <g transform="translate(0, 26)">
+        <rect width="335" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="20" cy="21" r="8" fill="#F1F3F5" stroke="#CBD5E1" stroke-width="1" />
+        <text x="20" y="25" fill="#6C7A89" font-size="10" font-weight="700" text-anchor="middle">2</text>
+        <text x="36" y="25" fill="#1A1F26" font-size="12" font-weight="600">Viva at 10am tomorrow — Email guide tonight</text>
+      </g>
+      <g transform="translate(0, 74)">
+        <rect width="335" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="20" cy="21" r="8" fill="#F1F3F5" stroke="#CBD5E1" stroke-width="1" />
+        <text x="20" y="25" fill="#6C7A89" font-size="10" font-weight="700" text-anchor="middle">3</text>
+        <text x="36" y="25" fill="#1A1F26" font-size="12" font-weight="600">Laptop dead — Borrow device at 8am</text>
+      </g>
+    </g>
+  </g>
+
+    </g>
+    <!-- Arrow 4 -> 5 -->
+    <line x1="1710" y1="436" x2="1750" y2="436" class="arrow" marker-end="url(#arrowhead)" />
+
+    <!-- Screen 5: Reassessment -->
+    <g transform="translate(1760, 30)">
+      <text x="0" y="-10" class="frame-title">Frame 05: Action Reassessment</text>
+      <rect width="375" height="812" rx="20" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Screen: Reassessment -->
+  <g id="Screen_Reassessment" transform="translate(20, 80)">
+    <text x="0" y="24" class="title" font-size="22">How did it go?</text>
+    <text x="0" y="48" class="subtitle" font-size="13">Regarding: "Call whoever is with your dad now"</text>
+    
+    <g id="Feedback_Grid" transform="translate(0, 75)">
+      <g transform="translate(0, 0)">
+        <rect width="160" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="20" y="34" font-size="20">✅</text>
+        <text x="50" y="38" fill="#1A1F26" font-weight="600" font-size="14">Better</text>
+      </g>
+      <g transform="translate(175, 0)">
+        <rect width="160" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="20" y="34" font-size="20">⏳</text>
+        <text x="50" y="38" fill="#1A1F26" font-weight="600" font-size="14">Not yet</text>
+      </g>
+      <g transform="translate(0, 85)">
+        <rect width="160" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="16" y="34" font-size="20">🔄</text>
+        <text x="46" y="32" fill="#1A1F26" font-weight="600" font-size="13">Something</text>
+        <text x="46" y="48" fill="#1A1F26" font-weight="600" font-size="13">changed</text>
+      </g>
+      <g transform="translate(175, 85)">
+        <rect width="160" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="16" y="34" font-size="20">⚠️</text>
+        <text x="46" y="32" fill="#1A1F26" font-weight="600" font-size="13">It got</text>
+        <text x="46" y="48" fill="#1A1F26" font-weight="600" font-size="13">worse</text>
+      </g>
+    </g>
+
+    <g id="Returning_User_Section" transform="translate(0, 270)">
+      <text x="0" y="20" class="title" font-size="16">Things may have changed</text>
+      <text x="0" y="38" class="subtitle" font-size="13">since we last talked. What's different?</text>
+      
+      <g transform="translate(0, 52)">
+        <rect width="335" height="40" rx="8" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="1" />
+        <text x="14" y="25" fill="#6C7A89" font-size="12">e.g. Laptop is fixed, or viva moved…</text>
+      </g>
+      
+      <g transform="translate(0, 102)">
+        <rect width="335" height="46" rx="10" fill="#2B6CB0" />
+        <text x="167" y="28" fill="#FFFFFF" class="btn-text">Reassess situation</text>
+      </g>
+    </g>
+  </g>
+
+    </g>
+  </g>
+
+  <!-- Flow 2: BRANCHES & EDGE STATES -->
+  <g transform="translate(60, 1020)">
+    <text x="0" y="0" class="flow-label">PROTOTYPE BRANCHES: CALM MODE, RECOVERY, CORRECTION, CONTRADICTION &amp; TOKENS</text>
+    
+    <!-- Screen 6: Calm Mode (S4) -->
+    <g transform="translate(0, 30)">
+      <text x="0" y="-10" class="frame-title">Branch S4: Calm Mode</text>
+      <rect width="375" height="680" rx="20" fill="#F4F6F4" stroke="#D1DED5" stroke-width="2" />
+      
+  <!-- Screen: Calm Mode (Scenario 4) -->
+  <rect width="375" height="812" fill="#F4F6F4" />
+  <g id="Screen_CalmMode" transform="translate(20, 80)">
+    <rect width="90" height="24" rx="12" fill="#E2ECE5" />
+    <circle cx="12" cy="12" r="4" fill="#2E5A44" />
+    <text x="22" y="16" fill="#2E5A44" font-weight="700" font-size="10">CALM SPACE</text>
+    
+    <text x="0" y="55" fill="#1C2D24" font-weight="700" font-size="22">You don't have to solve</text>
+    <text x="0" y="80" fill="#1C2D24" font-weight="700" font-size="22">everything right now.</text>
+    
+    <text x="0" y="115" fill="#486153" font-size="14">When work, exams, and family all feel heavy</text>
+    <text x="0" y="135" fill="#486153" font-size="14">at once, feeling exhausted makes complete sense.</text>
+    
+    <!-- Manageable Options -->
+    <g id="Calm_Options" transform="translate(0, 165)">
+      <rect width="335" height="195" rx="14" fill="#FFFFFF" stroke="#D1DED5" stroke-width="1" />
+      <text x="16" y="28" fill="#486153" class="label">LET'S FOCUS ON WHAT YOU NEED IN THIS MOMENT:</text>
+      
+      <g transform="translate(16, 42)">
+        <rect width="303" height="42" rx="8" fill="#FFFFFF" stroke="#D1DED5" stroke-width="1" />
+        <text x="14" y="26" fill="#1C2D24" font-size="13" font-weight="600">Talk through what's happening</text>
+        <text x="285" y="26" fill="#486153" font-size="13">→</text>
+      </g>
+      <g transform="translate(16, 92)">
+        <rect width="303" height="42" rx="8" fill="#FFFFFF" stroke="#D1DED5" stroke-width="1" />
+        <text x="14" y="26" fill="#1C2D24" font-size="13" font-weight="600">Focus on the next few minutes</text>
+        <text x="285" y="26" fill="#486153" font-size="13">→</text>
+      </g>
+      <g transform="translate(16, 142)">
+        <rect width="303" height="42" rx="8" fill="#FFFFFF" stroke="#D1DED5" stroke-width="1" />
+        <text x="14" y="26" fill="#1C2D24" font-size="13" font-weight="600">Reach someone I trust</text>
+        <text x="285" y="26" fill="#486153" font-size="13">→</text>
+      </g>
+    </g>
+
+    <!-- Support Box -->
+    <g id="Helpline_Box" transform="translate(0, 380)">
+      <rect width="335" height="120" rx="14" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5" />
+      <text x="16" y="28" fill="#166534" font-weight="700" font-size="13">Immediate support is always available:</text>
+      <text x="16" y="52" fill="#14532D" font-size="12">Tele-MANAS (Govt. of India 24x7 Helpline)</text>
+      
+      <g transform="translate(16, 64)">
+        <rect width="130" height="34" rx="8" fill="#166534" />
+        <text x="65" y="22" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">📞 Call 14416</text>
+      </g>
+      <text x="16" y="112" fill="#166534" font-size="10">NextStep does not replace crisis or healthcare professionals.</text>
+    </g>
+  </g>
+
+    </g>
+
+    <!-- Screen 7: Recovery (S7) -->
+    <g transform="translate(440, 30)">
+      <text x="0" y="-10" class="frame-title">Branch S7: Recovery ("That didn't go as expected")</text>
+      <rect width="375" height="680" rx="20" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Screen: Recovery (Scenario 7) -->
+  <g id="Screen_Recovery" transform="translate(20, 80)">
+    <g id="Recovery_Banner">
+      <rect width="335" height="100" rx="14" fill="#FFFBEB" stroke="#FCD34D" stroke-width="2" />
+      <text x="16" y="34" fill="#92400E" font-weight="700" font-size="18">That didn't go as expected.</text>
+      <text x="16" y="58" fill="#78350F" font-size="13">Let's understand what changed before</text>
+      <text x="16" y="76" fill="#78350F" font-size="13">deciding what to do next.</text>
+    </g>
+
+    <g id="What_Changed_Box" transform="translate(0, 115)">
+      <rect width="335" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+      <text x="16" y="26" class="label" fill="#6C7A89">WHAT CHANGED</text>
+      <text x="16" y="50" fill="#1A1F26" font-size="13" font-weight="600">Your manager replied angrily and copied HR.</text>
+      <text x="16" y="70" fill="#6C7A89" font-size="12">Current goal: Cool things down, don't win argument.</text>
+    </g>
+
+    <g id="Recovery_Buttons" transform="translate(0, 225)">
+      <g transform="translate(0, 0)">
+        <rect width="335" height="50" rx="10" fill="#2B6CB0" />
+        <text x="167" y="31" fill="#FFFFFF" class="btn-text">Help me decide what to do next</text>
+      </g>
+      <g transform="translate(0, 62)">
+        <rect width="335" height="50" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="167" y="31" fill="#1A1F26" class="btn-text">Review what I sent</text>
+      </g>
+      <g transform="translate(0, 124)">
+        <rect width="335" height="50" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        <text x="167" y="31" fill="#1A1F26" class="btn-text">Show what changed</text>
+      </g>
+    </g>
+  </g>
+
+    </g>
+
+    <!-- Screen 8: Correction (S1/S2) -->
+    <g transform="translate(880, 30)">
+      <text x="0" y="-10" class="frame-title">Branch: Inline Correction Flow</text>
+      <rect width="375" height="680" rx="20" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Screen: Correction -->
+  <g id="Screen_Correction" transform="translate(20, 80)">
+    <text x="0" y="24" class="title" font-size="22">Correct what I understood</text>
+    <text x="0" y="48" class="subtitle" font-size="13">Edit any specific item. You don't have to restart.</text>
+    
+    <g id="Edit_Fields" transform="translate(0, 70)">
+      <!-- Field 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="335" height="74" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="16" y="22" class="label" fill="#6C7A89">Item 1 (Family)</text>
+        <rect x="16" y="30" width="303" height="34" rx="6" fill="#F8F9FA" stroke="#94A3B8" stroke-width="1" />
+        <text x="26" y="52" fill="#1A1F26" font-size="13">Dad admitted to hospital in Surat</text>
+      </g>
+      <!-- Field 2 -->
+      <g transform="translate(0, 86)">
+        <rect width="335" height="74" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="16" y="22" class="label" fill="#6C7A89">Item 2 (Academic)</text>
+        <rect x="16" y="30" width="303" height="34" rx="6" fill="#F8F9FA" stroke="#94A3B8" stroke-width="1" />
+        <text x="26" y="52" fill="#1A1F26" font-size="13">Viva at 10am tomorrow</text>
+      </g>
+      <!-- Field 3 -->
+      <g transform="translate(0, 172)">
+        <rect width="335" height="74" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="16" y="22" class="label" fill="#6C7A89">Item 3 (Hardware)</text>
+        <rect x="16" y="30" width="303" height="34" rx="6" fill="#F8F9FA" stroke="#94A3B8" stroke-width="1" />
+        <text x="26" y="52" fill="#1A1F26" font-size="13">Laptop won't boot before the viva</text>
+      </g>
+    </g>
+
+    <g id="Btn_SaveCorrection" transform="translate(0, 340)">
+      <rect width="335" height="50" rx="12" fill="#2B6CB0" />
+      <text x="167" y="31" fill="#FFFFFF" class="btn-text">Continue with these corrections</text>
+    </g>
+    <g id="Btn_CancelCorrection" transform="translate(0, 400)">
+      <text x="167" y="20" fill="#6C7A89" font-size="14" font-weight="500" text-anchor="middle">Cancel</text>
+    </g>
+  </g>
+
+    </g>
+
+    <!-- Screen 9: Contradiction (S3) -->
+    <g transform="translate(1320, 30)">
+      <text x="0" y="-10" class="frame-title">Branch S3: Contradiction ("I don't want to guess")</text>
+      <rect width="375" height="680" rx="20" fill="#F8F9FA" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Screen: Contradiction / Uncertainty (Scenario 3) -->
+  <g id="Screen_Contradiction" transform="translate(20, 80)">
+    <g id="Notice_Box">
+      <rect width="335" height="150" rx="14" fill="#FFFBEB" stroke="#FCD34D" stroke-width="2" />
+      <circle cx="28" cy="28" r="10" fill="#92400E" />
+      <text x="28" y="33" fill="#FFFFFF" font-weight="700" font-size="12" text-anchor="middle">?</text>
+      <text x="46" y="32" fill="#92400E" font-weight="700" font-size="16">I don't want to guess.</text>
+      
+      <rect x="16" y="52" width="303" height="42" rx="6" fill="#FEF3C7" />
+      <text x="26" y="72" fill="#78350F" font-weight="700" font-size="13">Deadline: Thursday or Friday</text>
+      <text x="26" y="87" fill="#78350F" font-size="11">You mentioned both in your message.</text>
+      
+      <!-- Option Buttons -->
+      <g transform="translate(16, 102)">
+        <rect width="145" height="34" rx="6" fill="#FFFFFF" stroke="#B45309" stroke-width="1" />
+        <text x="72" y="22" fill="#78350F" font-size="12" font-weight="600" text-anchor="middle">Confirm Thursday</text>
+      </g>
+      <g transform="translate(174, 102)">
+        <rect width="145" height="34" rx="6" fill="#FFFFFF" stroke="#B45309" stroke-width="1" />
+        <text x="72" y="22" fill="#78350F" font-size="12" font-weight="600" text-anchor="middle">Confirm Friday</text>
+      </g>
+    </g>
+  </g>
+
+    </g>
+
+    <!-- Screen 10: Tokens & Priority Component Variants -->
+    <g transform="translate(1760, 30)">
+      <text x="0" y="-10" class="frame-title">Design Tokens &amp; Component Variants</text>
+      <rect width="375" height="680" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+      
+  <!-- Design Tokens Sheet -->
+  <g id="Design_Tokens" transform="translate(20, 60)">
+    <text x="0" y="20" class="title" font-size="20">NextStep Mini Design System</text>
+    
+    <!-- Colors -->
+    <g transform="translate(0, 40)">
+      <text x="0" y="0" class="label" fill="#6C7A89">COLOR TOKENS</text>
+      
+      <!-- Primary Blue -->
+      <rect x="0" y="10" width="70" height="50" rx="6" fill="#2B6CB0" />
+      <text x="0" y="72" fill="#1A1F26" font-size="11" font-weight="600">Primary</text>
+      <text x="0" y="84" fill="#6C7A89" font-size="10">#2B6CB0</text>
+      
+      <!-- Surface -->
+      <rect x="85" y="10" width="70" height="50" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <text x="85" y="72" fill="#1A1F26" font-size="11" font-weight="600">Surface</text>
+      <text x="85" y="84" fill="#6C7A89" font-size="10">#FFFFFF</text>
+      
+      <!-- Calm Accent -->
+      <rect x="170" y="10" width="70" height="50" rx="6" fill="#2E5A44" />
+      <text x="170" y="72" fill="#1A1F26" font-size="11" font-weight="600">Calm Sage</text>
+      <text x="170" y="84" fill="#6C7A89" font-size="10">#2E5A44</text>
+      
+      <!-- Warning -->
+      <rect x="255" y="10" width="70" height="50" rx="6" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1" />
+      <text x="255" y="72" fill="#1A1F26" font-size="11" font-weight="600">Warning</text>
+      <text x="255" y="84" fill="#6C7A89" font-size="10">#FFFBEB</text>
+    </g>
+
+    <!-- Typography -->
+    <g transform="translate(0, 160)">
+      <text x="0" y="0" class="label" fill="#6C7A89">TYPOGRAPHY HIERARCHY</text>
+      <text x="0" y="28" font-size="24" font-weight="700" fill="#1A1F26">Display Large (24px Bold)</text>
+      <text x="0" y="56" font-size="18" font-weight="600" fill="#1A1F26">Section Title (18px Semibold)</text>
+      <text x="0" y="82" font-size="15" font-weight="400" fill="#4A5568">Body Text (15px Normal, 1.65 line-height)</text>
+      <text x="0" y="104" font-size="12" font-weight="600" fill="#6C7A89">LABEL CAPTION (12px Uppercase)</text>
+    </g>
+
+    <!-- Spacing & Touch targets -->
+    <g transform="translate(0, 290)">
+      <text x="0" y="0" class="label" fill="#6C7A89">TOUCH TARGETS &amp; SPACING</text>
+      <rect x="0" y="15" width="335" height="48" rx="8" fill="#F1F3F5" stroke="#CBD5E1" stroke-width="1" />
+      <text x="16" y="44" fill="#1A1F26" font-size="13" font-weight="600">Min 48px Accessible Touch Target</text>
+      <text x="320" y="44" fill="#2B6CB0" font-size="12" text-anchor="end">48px height</text>
+    </g>
+  </g>
+
+    </g>
+  </g>
+</svg>

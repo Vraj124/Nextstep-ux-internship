@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <title>05 Prioritisation Screen</title>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-weight: 700; fill: #1A1F26; }
+      .subtitle { font-weight: 400; fill: #4A5568; }
+      .label { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; }
+      .btn-text { font-weight: 600; font-size: 15px; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="375" height="812" fill="#F8F9FA" />
+  
+  <!-- Header Bar -->
+  <g id="Header" transform="translate(20, 20)">
+    <rect width="28" height="28" rx="6" fill="#2B6CB0" />
+    <text x="14" y="19" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">NS</text>
+    <text x="36" y="20" fill="#1A1F26" font-weight="700" font-size="16">NextStep</text>
+    <text x="335" y="19" fill="#6C7A89" font-size="11" text-anchor="end">HAZHTeq Prototype</text>
+    <line x1="0" y1="36" x2="335" y2="36" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+  
+  
+  <!-- Screen: Prioritisation -->
+  <g id="Screen_Prioritisation" transform="translate(20, 80)">
+    <text x="0" y="24" class="title" font-size="22">Here's what matters most right now</text>
+    <text x="0" y="48" class="subtitle" font-size="13">One clear step at a time. The rest is organized below.</text>
+    
+    <!-- NEXT STEP Card -->
+    <g id="Card_NextStep" transform="translate(0, 65)">
+      <rect width="335" height="135" rx="14" fill="#EBF4FF" stroke="#2B6CB0" stroke-width="2" />
+      <text x="16" y="26" class="label" fill="#1A4971">NEXT STEP</text>
+      <text x="16" y="52" fill="#1A1F26" font-weight="700" font-size="15">Call whoever is with your dad now:</text>
+      <text x="16" y="74" fill="#1A1F26" font-size="14">Ask if they need you in Surat tonight.</text>
+      <g id="Btn_DoNow" transform="translate(16, 88)">
+        <rect width="180" height="36" rx="8" fill="#2B6CB0" />
+        <text x="90" y="23" fill="#FFFFFF" class="btn-text" font-size="13">Do this now</text>
+      </g>
+      <g id="Btn_WhyThis" transform="translate(206, 88)">
+        <rect width="113" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="56" y="23" fill="#1A1F26" class="btn-text" font-size="12">Why this?</text>
+      </g>
+    </g>
+
+    <!-- Priority 1 Card -->
+    <g id="Card_Priority1" transform="translate(0, 215)">
+      <rect width="335" height="195" rx="14" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2" />
+      
+      <!-- Badges -->
+      <circle cx="28" cy="28" r="12" fill="#2B6CB0" />
+      <text x="28" y="33" fill="#FFFFFF" font-weight="700" font-size="13" text-anchor="middle">1</text>
+      <text x="48" y="32" class="label" fill="#2B6CB0">RIGHT NOW • TOP PRIORITY</text>
+      <text x="319" y="32" fill="#6C7A89" font-size="11" text-anchor="end">~10 mins</text>
+      
+      <text x="16" y="66" class="title" font-size="16">Your dad's situation in Surat</text>
+      
+      <!-- Action box -->
+      <rect x="16" y="78" width="303" height="48" rx="6" fill="#F1F3F5" />
+      <line x1="16" y1="78" x2="16" y2="126" stroke="#2B6CB0" stroke-width="4" />
+      <text x="28" y="96" class="label" fill="#6C7A89" font-size="9">ACTION</text>
+      <text x="28" y="114" fill="#1A1F26" font-size="12" font-weight="600">Call family to confirm travel needs tonight</text>
+      
+      <text x="16" y="146" class="label" fill="#6C7A89" font-size="10">WHY THIS MATTERS RIGHT NOW</text>
+      <text x="16" y="166" fill="#4A5568" font-size="12">This decides whether you need to catch a bus/train</text>
+      <text x="16" y="182" fill="#4A5568" font-size="12">tonight, which directly affects the morning viva.</text>
+    </g>
+
+    <!-- Also on your plate -->
+    <g id="Also_On_Plate" transform="translate(0, 425)">
+      <text x="0" y="16" class="label" fill="#6C7A89">ALSO ON YOUR PLATE</text>
+      <g transform="translate(0, 26)">
+        <rect width="335" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="20" cy="21" r="8" fill="#F1F3F5" stroke="#CBD5E1" stroke-width="1" />
+        <text x="20" y="25" fill="#6C7A89" font-size="10" font-weight="700" text-anchor="middle">2</text>
+        <text x="36" y="25" fill="#1A1F26" font-size="12" font-weight="600">Viva at 10am tomorrow — Email guide tonight</text>
+      </g>
+      <g transform="translate(0, 74)">
+        <rect width="335" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+        <circle cx="20" cy="21" r="8" fill="#F1F3F5" stroke="#CBD5E1" stroke-width="1" />
+        <text x="20" y="25" fill="#6C7A89" font-size="10" font-weight="700" text-anchor="middle">3</text>
+        <text x="36" y="25" fill="#1A1F26" font-size="12" font-weight="600">Laptop dead — Borrow device at 8am</text>
+      </g>
+    </g>
+  </g>
+
+</svg>
